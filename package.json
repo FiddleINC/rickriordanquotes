@@ -1,0 +1,20 @@
+{
+	"name": "percyjacksonapi",
+	"version": "1.0.0",
+	"description": "Get a random quote from Rick Riordan Books as an NPM Module",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [ "random", "quotes", "percyjackson", "theolympians", "olympian", "rickriordan" ],
+	"author": "Prachurjya Biswas <biswasprachurjya@gmail.com> (fiddleinc.github.io)",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^0.19.2",
+		"chalk": "^4.0.0",
+		"cheerio": "^1.0.0-rc.3",
+		"request": "^2.88.2",
+		"request-promise": "^4.2.5",
+		"unique-random-array": "^2.0.0"
+	}
+}
