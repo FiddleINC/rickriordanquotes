@@ -1,6 +1,6 @@
 {
 	"name": "rickriordanquotes",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "Get a random quote from Rick Riordan Books as an NPM Module",
 	"main": "index.js",
 	"scripts": {
