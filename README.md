@@ -31,3 +31,7 @@ const allQuotes = quotes.all;
 //Prints a random Quote from the list
 const randomQuote = quotes.random();
 ```
+
+## Scraping
+
+I have also included the scrape.js file in the scrapper folder. I used Cheerio for scraping the GoodReads Page for the data.
