@@ -4,6 +4,30 @@ Get a random quote from Rick Riordan Books as an NPM Module
 
 You can find the npm module here on
 
-[RickRiordanQuotes](https://www.npmjs.com/package/rickriordanquotes)
+https://www.npmjs.com/package/rickriordanquotes
 
-```npm i rickriordanquotes```
+Just install the module using ```npm i rickriordanquotes```
+
+## Usage
+
+To include in CommonJS Module
+```javascript
+const quotes = require('rickriordanquotes')
+```
+To include in ES6 Module
+```javascript
+import {all, random} from 'rickriordanquotes'
+```
+
+### Get All Quotes
+
+```javascript
+//Prints a Array of Quotes and Title of the Book
+const allQuotes = quotes.all;
+```
+### Get Random Quote
+
+```javascript
+//Prints a random Quote from the list
+const randomQuote = quotes.random();
+```
