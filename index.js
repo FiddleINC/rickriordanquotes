@@ -1,4 +1,4 @@
-const quotes = require('./data.json');
+const quotes = require('./public/data.json');
 const random = require('unique-random-array');
 
 module.exports = {
