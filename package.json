@@ -6,9 +6,17 @@
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/FiddleINC/rickriordanquotes"
+	},
 	"keywords": [ "random", "quotes", "percyjackson", "theolympians", "olympian", "rickriordan" ],
 	"author": "Prachurjya Biswas <biswasprachurjya@gmail.com> (fiddleinc.github.io)",
 	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/FiddleINC/rickriordanquotes/issues"
+	},
+	"homepage": "https://github.com/FiddleINC/rickriordanquotes#readme",
 	"dependencies": {
 		"axios": "^0.19.2",
 		"chalk": "^4.0.0",
